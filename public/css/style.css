@@ -1,0 +1,72 @@
+body{
+    padding-top:0px;
+}
+.typed-cursor{
+    font-weight:bold;
+    font-size: 23px;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+.text-big{
+    font-style: italic;
+    font-size:38px;
+    font-weight: 100;
+}
+
+#big{
+    align-content: center;
+    font-size:23px;
+    color: #2196f3;
+}
+#normal{
+    font-size:23px;
+
+}
+#small{
+    font-size:23px;
+    color: #2196f3;
+}
+
+#icon{
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+
+}
+
+.animated {
+    -webkit-animation-duration: .11s;
+    -o-animation-duration: .11s;
+    -moz-animation-duration: .11s;
+    animation-duration: .11s;
+
+    -webkit-animation-delay: 3s;
+    -o-animation-delay: 3s;
+    -moz-animation-delay: 3s;
+    animation-delay: 3s;
+}
+
+.section{
+    width: 1263px;
+}
+.fa-inverse {
+    background-color: #2497F3 !important;
+    color: white;
+    border-radius: 50%;
+}
